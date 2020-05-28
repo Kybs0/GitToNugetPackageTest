@@ -17,7 +17,6 @@
     <None Remove="GitToNugetPackageTest.csproj.DotSettings" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
   </ItemGroup>
 </Project>
