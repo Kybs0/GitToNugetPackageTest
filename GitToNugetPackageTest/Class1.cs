@@ -9,7 +9,5 @@ namespace GitToNugetPackageTest
     public class Class1
     {
 
-
-
     }
 }
