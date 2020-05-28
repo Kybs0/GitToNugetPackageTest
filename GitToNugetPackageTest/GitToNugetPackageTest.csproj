@@ -8,7 +8,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <RepositoryUrl>https://github.com/Kybs0/GitToNugetPackageTest.git</RepositoryUrl>
     <PackageProjectUrl>https://github.com/Kybs0/GitToNugetPackageTest</PackageProjectUrl>
-    <PackageIconUrl>http://chuantu.xyz/t6/723/1583677805x989559068.jpg</PackageIconUrl>
+    <PackageIconUrl></PackageIconUrl>
     <RepositoryType>git</RepositoryType>
     <Description>测试：Git自动打包，并推到Nuget源。</Description>
     <LangVersion>latest</LangVersion>
@@ -17,24 +17,7 @@
     <None Remove="GitToNugetPackageTest.csproj.DotSettings" />
   </ItemGroup>
   <ItemGroup>
-    <!--<PackageReference Include="Microsoft.Win32" Version="1.0.0" />-->
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-    <PackageReference Include="SharpZipLib" Version="1.2.0" />
-    <PackageReference Include="Microsoft.Windows.Compatibility" Version="3.1.0" />
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
-  </ItemGroup>
-
-  <ItemGroup Condition="'$(TargetFramework)'=='net45'">
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Web" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Microsoft.VisualBasic" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Properties\" />
   </ItemGroup>
 </Project>
