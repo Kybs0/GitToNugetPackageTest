@@ -8,6 +8,6 @@ namespace GitToNugetPackageTest
 {
     public class Class1
     {
-
+        public int a(){}
     }
 }
